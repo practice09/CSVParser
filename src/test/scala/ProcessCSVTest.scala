@@ -1,4 +1,3 @@
-/*
 import java.util
 import org.scalatest.FunSuite
 
@@ -8,4 +7,3 @@ class ProcessCSVTest extends FunSuite {
     ProcessCSV.getRowSummation("finance.csv");
   }
 }
-*/
