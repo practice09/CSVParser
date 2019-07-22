@@ -28,12 +28,13 @@ object ProcessCSV {
     })
   }
 
-  def printMap(): Unit ={
-    val map: util.Map[ Integer, String ] = new util.HashMap[ Integer, String ]
-
-    map.forEach( ( key: Integer, value: String ) => {
-        System.out.println( key + " " + value )
-    } )
+  def printMap(): Unit = {
+    val map: util.Map[Integer, String] = new util.HashMap[Integer, String]
+    map.put(1, "A")
+    map.put(2, "B")
+    map.forEach((key: Integer, value: String) => {
+      System.out.println(key + " " + value)
+    })
 
   }
 }

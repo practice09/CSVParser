@@ -1,5 +1,2 @@
 
 
-class ProcessCSVTest extends FunSuite {
-
-}
